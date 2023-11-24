@@ -1,0 +1,82 @@
+@import '@styles/base';
+
+
+.registerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    .title {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+
+    .error {
+        margin-top: 10px;
+        font-size: 15px;
+        color: red
+    }
+
+    .registerContent {
+        background-color: $color-white;
+        padding: 2rem 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px $color-dark-blue;
+        @include apply-at-md-size{
+            width: 20rem;
+        }
+        .formRegister {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+   
+            @include apply-at-md-size{
+                
+            }
+
+            input {
+                margin-bottom: 30px;
+                height: 40px;
+                border: none;
+                border-radius: 5px;
+                background-color: $color-light-blue;
+            }
+
+            label {
+                font-size: 17px;
+                color: $color-text-primary;
+                margin-bottom: 10px;
+            }
+        }
+
+        button {
+            border: none;
+            
+            background-color: $color-dark-blue;
+            padding: 1rem 2rem;
+            width: 100%;
+            border-radius: 5px;
+            color: $color-white;
+            cursor: pointer;
+            margin-top: 10px;
+            @include apply-at-md-size{
+                width: 90%;
+            }
+        }
+
+        button:hover {
+            background-color: rgb(40, 10, 159);
+        }
+
+        p {
+            margin-top: 40px;
+            font-size: 15px;
+            font-style: italic;
+        }
+    }
+}

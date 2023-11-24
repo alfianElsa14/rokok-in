@@ -1,0 +1,51 @@
+export default {
+  app_greeting: 'Hi from Web!',
+  app_title_header: 'Priori',
+  app_not_found: 'Page not found',
+  app_lang_id: 'Indonesian',
+  app_lang_en: 'English',
+  app_popup_error_title: 'Something went wrong!',
+  app_popup_error_message: 'Sorry, an error has occurred. Please try again later',
+  app_popup_close_button_label: 'Close',
+  app_error_register_message_1: 'All data must be filled in !',
+  app_error_register_message_2: 'Password must be at least 6 characters long !',
+
+  app_task: 'Task',
+  app_priority: 'Priority',
+  app_priority_low: 'Low↓',
+  app_priority_medium: 'Medium',
+  app_priority_high: 'High↑',
+  app_task_list: 'Task List',
+  app_status: 'Status',
+  app_status_todo: 'Todo',
+  app_status_progress: 'In Progress',
+  app_status_done: 'Done',
+  app_description: 'Description',
+  app_back: 'Back',
+  app_logout: 'Logout',
+  app_are_you_sure: 'Are you sure you want to delete this task?',
+  app_fullName: 'Fullname',
+  app_here: 'Here',
+  app_to_login: 'to Login',
+  app_have_account: 'Dont have an Account?',
+
+  app_cigerate_list: 'Cigarette list',
+  app_add_cigerate: 'Add cigaratte',
+  app_search: 'Search',
+  app_search_cigerate: 'Search cigeratte',
+  app_price: 'Price',
+  app_pack: 'Packs',
+
+  app_add_to_cart: 'Add to cart',
+
+  app_title: 'title',
+  app_isi: 'contains',
+  app_image: 'image',
+  app_stick: 'sticks',
+
+  app_cart: 'Your Cart',
+  app_sold_out: 'Sold out',
+
+  app_add_stock: 'Add stock',
+  app_delete: 'Delete'
+};

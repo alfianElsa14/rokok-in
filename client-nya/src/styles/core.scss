@@ -1,0 +1,38 @@
+@import './base.scss';
+:root {
+  font-family: Poppins, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  @include apply-at-md-size {
+    font-size: 120%;
+  }
+
+  @include apply-at-lg-size {
+    font-size: 125%;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text);
+  background-image: url('https://cdn0-production-images-kly.akamaized.net/7jYYLhACr0upqoGnDzNu-4H4rC4=/1280x720/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3343568/original/091754000_1610083282-white-geometrical-background-structure-flat-lay.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  //  filter: brightness(80%) saturate(70%);
+}
+
+html[data-theme='light'] {
+  @include light-theme;
+}
+
+html[data-theme='dark'] {
+  @include dark-theme;
+}

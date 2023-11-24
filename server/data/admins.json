@@ -1,0 +1,16 @@
+[
+    {
+        "username": "alfian",
+        "email": "alfian@gmail.com",
+        "password": "1234567",
+        "image" : "https://png.pngtree.com/png-clipart/20230305/original/pngtree-muslim-boy-profile-photo-png-image_8973295.png",
+        "role": "admin"
+    },
+    {
+        "username": "uya",
+        "email": "uya@gmail.com",
+        "password": "1234567",
+        "image" : "https://png.pngtree.com/png-clipart/20230305/original/pngtree-muslim-boy-profile-photo-png-image_8973295.png",
+        "role": "user"
+    }
+]

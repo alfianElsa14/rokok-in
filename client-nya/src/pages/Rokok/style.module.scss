@@ -1,0 +1,81 @@
+@import '@styles/base';
+
+.detail {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+    @include apply-at-md-size {
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .cardDetail {
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 250px;
+        border-radius: 10px;
+
+        @include apply-at-md-size {
+            width: 400px;
+            border-radius: 10px;
+        }
+    }
+
+    .paraph {
+        display: flex;
+        flex-direction: column;
+
+        .button {
+            display: flex;
+            margin-top: 20px;
+
+            .addStock {
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    width: 135px;
+                    margin-bottom: 10px;
+                    border: none;
+                    border-radius: 5px 0px 0px 5px;
+                }
+            }
+
+            button {
+                background-color: black;
+                color: $color-white;
+                border: none;
+                width: 140px;
+                height: 40px;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-right: 20px;
+            }
+
+            button:hover {
+                background-color: #535454;
+            }
+
+            .deleteBut {
+                background-color: rgb(161, 35, 35);
+                margin-top: 35px;
+                margin-left: 30px;
+            }
+
+            .deleteBut:hover {
+                background-color: rgb(93, 25, 25);
+                ;
+            }
+        }
+    }
+}

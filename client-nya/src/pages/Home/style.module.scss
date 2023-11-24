@@ -1,0 +1,133 @@
+@import '@styles/base';
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            height: 50px;
+            margin-top: 20px;
+            background-color: rgb(35, 134, 35);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(56, 220, 56);
+            ;
+        }
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            width: 1000px;
+            height: 40px;
+            border: none;
+            border-radius: 5px 0px 0px 5px;
+
+            @include apply-at-xs2-size {
+                width: 1000px;
+                height: 40px;
+            }
+
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            height: 40px;
+            cursor: pointer;
+            width: 136px;
+            border-radius: 0px 5px 5px 0px;
+        }
+
+        button:hover {
+            background-color: #1768b9;
+        }
+    }
+
+    .listCard {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        .card {
+            box-shadow: 0 0 10px 5px #888888;
+            width: 250px;
+            height: 480px;
+            display: flex;
+            background-color: $color-white;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 20px;
+            margin-bottom: 30px;
+            border-radius: 20px;
+
+            .image {
+                background-color: #1768b9;
+                display: flex;
+                ;
+                width: 200px;
+                height: 250px;
+
+                img {
+                    width: 100%;
+                }
+
+
+            }
+
+            .list {
+                padding: 0px 10px;
+
+                .title {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 21px;
+                }
+
+                .price {
+                    font-weight: 600;
+                    font-size: 13px;
+                    line-height: 21px;
+                }
+
+                .isi {
+                    font-weight: 400px;
+                    font-size: 17px;
+                    line-height: 18px;
+                }
+
+
+            }
+
+        }
+
+        button {
+            margin-top: 10px;
+            background-color: black;
+            color: $color-white;
+            width: 100px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+
+}

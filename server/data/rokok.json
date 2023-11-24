@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Gudang Garam",
+        "price": 25000,
+        "isi": 12,
+        "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//96/MTA-9355434/gudang_garam_rokok_gudang_garam_filter_full02_nqbhq59o.jpg",
+        "stock": 10
+    },
+    {
+        "title": "Magnum Filter",
+        "price": 23000,
+        "isi": 12,
+        "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/1/24/661b1919-51d1-4261-934c-c3483c1c2572.jpg",
+        "stock": 10
+    },
+    {
+        "title": "Sampoerna Mild",
+        "price": 32000,
+        "isi": 16,
+        "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//104/MTA-28564727/sampoerna_rokok_sampoerna_mild_16_full01_ix94s02m.jpg",
+        "stock": 10
+    },
+    {
+        "title": "Envio Kretek",
+        "price": 12000,
+        "isi": 12,
+        "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//105/MTA-38445927/envio_envio_kretek_-_bks_full01_i4ko9mz1.jpg",
+        "stock": 10
+    },
+    {
+        "title": "Lucky Strike Switch",
+        "price": 30000,
+        "isi": 20,
+        "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/2/2/0cbbc24c-db1d-4401-b27f-de696dca894a.jpg",
+        "stock": 10
+    }
+]

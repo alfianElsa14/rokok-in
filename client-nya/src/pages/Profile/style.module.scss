@@ -1,0 +1,170 @@
+@import '@styles/base';
+
+.profileContent {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            height: 50px;
+            margin-top: 20px;
+            background-color: $color-dark-blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0044a9;
+        }
+    }
+
+    .profilePic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .fotoProfile {
+            border-bottom: 10px solid #ccc;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            button {
+                width: 137.2px;
+                height: 25px;
+                font-size: 14px;
+                background-color: #1768b9;
+                color: white;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+        .listCard {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
+            padding: 50px;
+            justify-content: center;
+            align-items: center;
+        
+            @include apply-at-sm-size {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @include apply-at-md-size {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            @include apply-at-xl-size {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            @include apply-at-xxl-size {
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+            .card {
+                box-shadow: 0 0 10px 5px #888888;
+                width: 250px;
+                height: 500px;
+                display: flex;
+                background-color: $color-white;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 20px;
+                margin-bottom: 30px;
+                cursor: pointer;
+                border-radius: 20px;
+
+                .image {
+                    background-color: #1768b9;
+                    display: flex;
+                    ;
+                    width: 200px;
+                    height: 250px;
+
+                    img {
+                        width: 100%;
+                    }
+
+
+                }
+
+                .list {
+                    padding: 0px 10px;
+                    width: 100%;
+
+                    .title {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 21px;
+                    }
+
+                    .price {
+                        font-weight: 600;
+                        font-size: 17px;
+                        line-height: 21px;
+                    }
+
+                    .isi {
+                        font-weight: 400px;
+                        font-size: 17px;
+                        line-height: 18px;
+                    }
+
+                    .buttonCart {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .cartBut {
+                            margin-right: 20px;
+                        }
+
+                        button {
+                            width: 70px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            cursor: pointer;
+                        }
+
+                        button:hover {
+                            background-color: #535454;
+                        }
+
+                        .deleteButton {
+                            background-color: rgb(161, 35, 35);
+                        }
+
+                        .deleteButton:hover {
+                            background-color: rgb(93, 25, 25);;
+                        }
+                    }
+                }
+
+            }
+
+            button {
+                margin-top: 10px;
+                background-color: black;
+                color: $color-white;
+                width: 100px;
+                height: 40px;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+
+    }
+}

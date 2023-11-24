@@ -1,0 +1,55 @@
+@import '@styles/base';
+
+.formContainer {
+    text-align: center;
+    margin-top: 30px;
+
+    .formCard {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        max-width: 600px;
+
+        margin: 0 auto;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    input,
+    select {
+        text-align: center;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #333;
+    }
+
+    h2 {
+        margin: 0 0 20px;
+    }
+}
